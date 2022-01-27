@@ -1,0 +1,68 @@
+*{
+	margin-top: 0;
+}
+
+body{
+	background-image: url(IMG/1.jpg);
+}
+
+nav{
+	width: 100%;
+	background: #878798;
+}
+
+nav ul{
+	display: block;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+nav ul li:hover{
+	background: #fff;
+}
+
+nav ul li a:hover{
+	color: #000; 
+} 
+
+#Menu{
+	width: 10%;
+	background: #878798;
+	color: white;
+	border-radius: 6px;
+	text-align: center;
+	display: none;
+}
+
+#Menu:hover{
+	
+	background: rgb(250,100,50);
+	color: white;
+	cursor: pointer;
+}
+
+
+@media(max-width: 900px){
+	nav{
+	display: none;
+}
+
+#Menu{
+	display: block;
+}
+
+nav ul li{
+	display: block;
+}
+
+
+}

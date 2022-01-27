@@ -1,0 +1,12 @@
+.btn a:hover{
+ text-decoration: none;
+ color: #fff
+}
+
+.btn{
+	background: red !important;
+}
+
+.navbar-header{
+	background: pink;
+}
